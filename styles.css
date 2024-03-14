@@ -1,0 +1,122 @@
+/*seccion de info*/
+.info{
+    
+    overflow: hidden;
+    position: relative;
+    border: 10px solid rgb(0, 0, 0);
+    height: 300px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    
+}
+.info-banner{
+    color: white;
+    font-family: 'Blinker', sans-serif;
+
+}
+
+
+/*banner carteles*/
+
+#B1{
+    position: absolute;
+    top: 0%;
+    padding: 10px; 
+    backdrop-filter: blur(80px);
+    border-radius: 12px;
+    overflow: hidden;
+    transform: rotateX(360deg);
+    animation: ruleta1 20s linear infinite;
+    animation-delay: 0s;
+    opacity: 0;
+    
+   
+}
+
+
+/*banner gadgetes*/
+
+#B2{
+    position: absolute;
+      top: 0%;
+      padding: 10px; 
+    backdrop-filter: blur(80px);
+    border-radius: 12px;
+    overflow: hidden;
+    transform: rotateX(360deg);
+    animation: ruleta1 20s linear infinite;
+    animation-delay: 5s;
+    opacity: 0;
+    
+}
+
+
+
+/*Banner 3D3d*/
+    #B3{
+        position: absolute;
+      top: 0%;
+      padding: 10px; 
+        backdrop-filter: blur(80px);
+        border-radius: 12px;
+        overflow: hidden;
+        transform: rotateX(360deg);
+        animation: ruleta1 20s linear infinite;
+        animation-delay: 10s;
+        opacity: 0;
+        
+    }
+
+
+
+/*Banner Artículos*/
+#B4{
+    position: absolute;
+    top: 0%;
+    padding: 10px; 
+    backdrop-filter: blur(80px);
+    border-radius: 12px;
+    overflow: hidden;
+    transform: rotateX(360deg);
+    animation: ruleta1 20s linear infinite;
+    animation-delay: 15s;
+    opacity: 0;
+    
+    
+
+}
+
+@keyframes ruleta1{
+    0%{
+        transform: translate(0%, 0%) rotateX(90deg);
+        opacity: 0;
+        z-index: 0;
+        box-shadow: 0px 0px 0px black;
+
+    }
+    5%{
+        transform: translate(0%, 100%) rotateX(0);
+        opacity: 1; 
+        z-index: 10;
+        box-shadow: 0px 0px 20px rgb(1, 35, 255);
+    }
+    25%{
+        transform: translate(0%, 100%) rotateX(0);
+        opacity: 1;
+        z-index: 10;
+        box-shadow: 0px 0px 2px rgb(1, 35, 255);
+
+    }
+    30%, 94%{
+        transform: translate(0%, 200%) rotateX(-90deg);
+        opacity: 0;
+        z-index: 0;
+        box-shadow: 0px 0px 0px black;
+    }
+    95%, 100%{
+        transform: translate(0%, 0%) rotateX(90deg);
+        opacity: 0;
+        z-index: 0;
+        box-shadow: 0px 0px 0px black;
+
+    }
+}
