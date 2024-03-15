@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     border: 10px solid rgb(0, 0, 0);
-    height: 300px;
+    height: 600px;
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     
 }
@@ -16,13 +16,18 @@
     font-family: 'Blinker', sans-serif;
 
 }
+.info-banner img{
+    position: absolute;
+    width: 100px;
+    border-radius: 10px;
+    
+}
 
 
 /*banner carteles*/
 
 #B1{
     position: absolute;
-    
     top: 0%;
     padding: 10px; 
     backdrop-filter: blur(80px);
@@ -32,6 +37,7 @@
     animation: ruleta1 20s linear infinite;
     animation-delay: 0s;
     opacity: 0;
+    background-image: url('img/auto1.webp');
     
    
 }
