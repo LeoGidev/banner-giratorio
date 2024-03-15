@@ -2,9 +2,7 @@
 .info{
     
     overflow: hidden;
-    position: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     border: 10px solid rgb(0, 0, 0);
     height: 300px;
     margin: 0 auto; /* Centra el contenedor horizontalmente */
