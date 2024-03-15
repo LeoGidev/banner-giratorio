@@ -76,6 +76,7 @@
 /*Banner Artículos*/
 #B4{
     position: absolute;
+    left: 50%;
     top: 0%;
     padding: 10px; 
     backdrop-filter: blur(80px);
